@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This is one of the projects required for the Front End Certificate at [Free Code Camp](http://freecodecamp.com). I wanted to use a minimalist design to achieve the objective which can be [found here:](https://www.freecodecamp.com/challenges/build-a-random-quote-machine) but the user stories include:
+This is one of the projects required for the Front End Certificate at [Free Code Camp](http://freecodecamp.com). I wanted to use a minimalist design to achieve the objective which can be [found here -](https://www.freecodecamp.com/challenges/build-a-random-quote-machine) but the user stories include:
 * I can click a button to show me a new random quote.
 * I can press a button to tweet out a quote.
 
