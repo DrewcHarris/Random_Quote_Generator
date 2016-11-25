@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Random Quote Machine</title>
+
+<!-- CSS Files -->
+    <!-- Font Awesome CDN Link -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <!-- Boot strap CDN Link -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Regular CSS file link -->
+    <link rel="stylesheet" href="main.css" >
+
+  </head>
+  <body>
+  <!-- Main container -->
+  <div class="container">
+    <div class="page-header text-center col-sm-8 col-sm-offset-2">
+      <h2>Random Quote Machine</h2>
+    </div>
+    <div class="row text-center col-sm-8 col-sm-offset-2">
+      <div class="jumbotron">
+          <p id="instructions">Click the 'Get Quote' button below to view a random quote, then use the 'Tweet Quote' button to share it on Twitter!
+          </p>
+        <p id="quote"></p>
+        <p id="author"></p>
+      </div>
+    </div>
+    <div class="row text-center">
+      <div class="col-sm-12">
+        <button id="getQuoteButton" class="btn btn-primary"><i class="fa fa-quote-left fa-fw" aria-hidden="true"></i>
+          Get Quote
+        </button>
+        <button id="tweetQuoteButton" class="btn btn-info" disabled><i class="fa fa-twitter fa-fw"  aria-hidden="true"></i>
+          Tweet Quote
+        </button>
+      </div>
+    </div>
+    <div class="text-center col-sm-8 col-sm-offset-2">
+      <div class="row">
+        <hr>
+      </div>
+    </div>
+    <div class="text-center col-sm-8 col-sm-offset-2">
+      <div class="row">
+        <p class="love">Made with <i class="fa fa-heart"></i> by <a href="https://www.freecodecamp.com/drewcharris" target="_blank"> Drew Harris</p>
+      </div>
+    </div>
+  <!-- End Main Container -->
+  </div>
+
+<!-- jquery CDN link -->
+    <script
+    src="https://code.jquery.com/jquery-2.2.4.min.js"
+    integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+    crossorigin="anonymous"></script>
+<!-- JS file link -->
+    <script src = "main.js"></script>
+
+  </body>
+</html>
